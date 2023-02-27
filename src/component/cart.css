@@ -1,0 +1,46 @@
+.cart{
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px 0;
+    background-color: green;
+    min-height: 100px;
+}
+.ti{
+    font-size: 47px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+.price{
+    background-color: #f50;
+    margin: 10px auto ;
+    width: 350px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.price1{
+    font-size: 40px;
+    color: green;
+    font-weight: bolder;
+    margin: 5px 0
+}
+.price2,.price3{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    margin: 5px 0;
+}
+.nocart{
+    font-size: 50px;
+    color: red;
+    background-color: white;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}

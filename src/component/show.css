@@ -1,0 +1,45 @@
+.show{
+    background-color: #f50;
+    min-height: 300px;
+    width: 90%;
+    margin:30px auto;
+    padding: 30px 0;
+
+}
+.book{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: yellow;
+    border: 4px dashed blue;
+    width: 85%;
+    height: 95px;
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 25px auto;
+
+
+}
+.btns{
+    display: flex;
+    flex-flow :column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 230px;
+    background-color: red;
+   
+    
+}
+.btns button{
+    border-radius: 20px;
+    font-size: 20px;
+}
+.btns button:hover{
+    background-color: green;
+    transform: scale(1.2);
+    transition: transform .5s ease 0;
+    cursor: pointer;
+}
